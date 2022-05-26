@@ -37,10 +37,16 @@ pip install pyocr
 
 ### 実行方法
 ```
-第一引数にファイル名を指定してapp.pyを実行してください。
+app.pyを実行してファイル名を入力して下さい。
+ファイル名は第一引数に指定することも出来ます。
 対応しているファイルはPNGです。
 
 python app.py [ファイル名]
+```
+
+### 出力
+```
+result.logにログが出力されます。
 ```
 
 ### Customize configuration
