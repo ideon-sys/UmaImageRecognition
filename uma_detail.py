@@ -42,7 +42,7 @@ def __get_skillname_for_json(pt) -> str:
     :param pt: テンプレートマッチングで取得した位置
     :return: スキル名
     """
-    with open("json/skill.json") as fstream:
+    with open("json/skill.json", mode='rt', encoding='utf-8') as fstream:
         read_json = json.load(fstream)
         string_size = read_json["size"]
 
