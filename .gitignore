@@ -6,6 +6,8 @@ bin-release/
 
 # Other files and folders
 .settings/
+.idea/
+src/.___pycache__
 
 # Executables
 *.swf
