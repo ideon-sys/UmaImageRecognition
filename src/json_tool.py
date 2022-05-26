@@ -31,7 +31,7 @@ def list_to_variable(arg_list: list, filename: str):
     :return: 出力の成否
     """
     try:
-        fstream = open(filename, 'w')
+        fstream = open(filename, mode='w', encoding='utf-8')
         for item in arg_list:
             fstream.writelines("{0} = {1}\n".format(item[0], item[1]))
     except ValueError:

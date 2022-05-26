@@ -16,9 +16,5 @@ try:
 except IndexError as e:
     print("ファイルの読込に失敗しました。PNG形式のウマ娘詳細画面を使用して下さい。")
     exit()
-
-print("読み込んだファイル")
-print(sys.argv[1])
-
 print("結果")
 print(txt)

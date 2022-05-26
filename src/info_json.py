@@ -12,7 +12,7 @@ class Position:
         self.height = int(arg_bottom - arg_top)
 
 
-with open("json/info.json") as fstream:
+with open("json/info.json", mode='rt', encoding='utf-8') as fstream:
     read_json = json.load(fstream)
 
 
