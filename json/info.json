@@ -1,0 +1,176 @@
+{
+  "template_matching": {
+    "image_path": {
+      "skill": "image/skill_list.png",
+      "rank": "image/rank_tile.png"
+    }
+  },
+  "image": {
+    "$comment": "ウマ娘のステータスが表示される全体の画像のアスペクト比 [横、縦]",
+    "aspect": [0.58, 1]
+  },
+  "string": {
+    "color": {
+      "min": [120, 50, 20],
+      "max": [210, 190, 170]
+    }
+  },
+  "speed": {
+    "left": 59,
+    "top": 247,
+    "right": 120,
+    "bottom": 288
+  },
+  "stamina": {
+    "left": 169,
+    "top": 247,
+    "right": 230,
+    "bottom": 288
+  },
+  "power": {
+    "left": 279,
+    "top": 247,
+    "right": 340,
+    "bottom": 288
+  },
+  "guts": {
+    "left": 389,
+    "top": 247,
+    "right": 450,
+    "bottom": 288
+  },
+  "intelligence": {
+    "left": 499,
+    "top": 247,
+    "right": 560,
+    "bottom": 288
+  },
+  "turf": {
+    "left": 194,
+    "top": 305,
+    "right": 215,
+    "bottom": 326
+  },
+  "dirt": {
+    "left": 303,
+    "top": 305,
+    "right": 324,
+    "bottom": 326
+  },
+  "sprint": {
+    "left": 194,
+    "top": 338,
+    "right": 215,
+    "bottom": 358
+  },
+  "mile": {
+    "left": 303,
+    "top": 338,
+    "right": 324,
+    "bottom": 358
+  },
+  "medium": {
+    "left": 412,
+    "top": 338,
+    "right": 433,
+    "bottom": 358
+  },
+  "long": {
+    "left": 521,
+    "top": 338,
+    "right": 542,
+    "bottom": 358
+  },
+  "runner": {
+    "left": 194,
+    "top": 371,
+    "right": 215,
+    "bottom": 392
+  },
+  "leader": {
+    "left": 303,
+    "top": 371,
+    "right": 324,
+    "bottom": 392
+  },
+  "betweener": {
+    "left": 412,
+    "top": 371,
+    "right": 433,
+    "bottom": 392
+  },
+  "chaser": {
+    "left": 521,
+    "top": 371,
+    "right": 542,
+    "bottom": 392
+  },
+  "tabs": {
+    "names": [
+      "育成情報",
+      "スキル",
+      "因子"
+    ],
+    "selected": {
+      "$comment": "選択されている状態の判別に使用する",
+      "skill": {
+        "left": 50,
+        "top": 430
+      },
+      "factor": {
+        "left": 225,
+        "top": 430
+      },
+      "color": {
+        "min_white": 240,
+        "max_white": 255
+      }
+    }
+  },
+  "info": {
+    "$comment": "スキルや因子の情報が表示される四角の部分",
+    "left": 8,
+    "top": 460,
+    "right": 572,
+    "bottom": 885,
+    "color": {
+      "bg": 242
+    },
+    "skills": {
+      "$comment": "「スキルが15個以上ある」などで、画像が複数になる際に、Y座標は変動する可能性がある",
+      "leftside": {
+        "$comment": "左側スキルの開始位置 X座標はこれを基点として、下記のofs_sizeの値を足して計算する",
+        "left": 17
+      },
+      "rightside": {
+        "$comment": "右側スキルの開始位置 X座標はこれを基点として、下記のofs_sizeの値を足して計算する",
+        "left": 293
+      },
+      "ofs": {
+        "$comment": [
+          "！注意！",
+          "ofs以下に格納されている座標は全て相対座標の為、基準となる座標に加算して使用"
+        ],
+        "next_height": 61,
+        "all": {
+          "left": 0,
+          "top": 0,
+          "right": 267,
+          "bottom": 48
+        },
+        "name": {
+          "left": 37,
+          "top": 14,
+          "right": 232,
+          "bottom": 34
+        },
+        "uniquelv": {
+          "left": 233,
+          "top": 14,
+          "right": 265,
+          "bottom": 34
+        }
+      }
+    }
+  }
+}
